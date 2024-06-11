@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 28px;
+    color: #5D5D7D;
+    gap: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+nav {
+    background: #f3f3f3;
+    width: 400px;
+    height: 800px;
+
+}
+
+li:hover {
+    opacity: 0.3;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+    color: #5D5D7D;
+    width: 368px;
+    height: 160px;
+}
+
+p {
+    width: 540px;
+    height: 144px;
+    opacity: 0.6;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #5D5D7D;
+}
+
+
+.button {
+    width: 269px;
+    height: 62px;
+    color: #ffffff;
+    background: #9499EA;
+    font-size: 24px;
+    line-height: 35.57px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
+
+
+button:active {
+    background-color: blueviolet;
+    position: relative;
+    top: 2px;
+
+}
+
+
+.container {
+    display: flex;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    mix-blend-mode: multiply;
+    position: relative;
+    right: 120px;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {        
+        display: block;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
